@@ -42,7 +42,7 @@ body {
   }
 }
 
-.container0 {
+.header-container {
   display: flex;
   border: 1px solid #ccc;
   background-color: white;
@@ -55,18 +55,14 @@ body {
   color: rgb(23, 23, 219);
 }
 
-.test {
-  float: right;
-}
-
-.Navbar {
+.top-navbar-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #0C2B57;
 }
 
-.container1 {
+.storycard-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -74,21 +70,22 @@ body {
   padding-right: 200px;
 }
 
-.bigCard{
+.big-card{
   width: 50px;
 }
 
-.topStories{
+.top-stories{
   display: flex;
   flex-direction: row;
   padding-top: 100px;
   padding-left: 200px;
 }
 
-.cardContainer {
+.card-container {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.cardTitle {
+.story-card{
+  width: 10rem;
 }

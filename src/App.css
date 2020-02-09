@@ -94,10 +94,33 @@ body {
   width: 10rem;
 }
 
-/* .top-right-links{
+.top-links-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-right-links{
+  display: flex;
   float: right;
 }
 
 .top-left-links {
-  float:left;
-} */
+  display: flex;
+  float: left;
+}
+
+.top-links {
+  color: black;
+}
+
+.straits-time-header {
+  position: relative;
+  left: 40px
+}
+
+.straits-time-font {
+  color: rgb(4, 12, 61);
+  line-height: 40px;
+  font-weight: bold;
+  font-family: "SelaneWebSTTwenty",Georgia,"Times New Roman",Times,serif;
+}

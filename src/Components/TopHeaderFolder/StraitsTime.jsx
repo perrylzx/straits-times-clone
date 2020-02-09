@@ -1,14 +1,10 @@
 import React from 'react';
 
-import TopLinks from './TopLinks'
-
 class StraitsTime extends React.Component {
   render() {
     return (
-      <div>
-        <TopLinks />
-
-        <h1>THE STRAITS TIME</h1>
+      <div className='straits-time-header'>
+        <h1 className='straits-time-font'>THE STRAITS TIMES</h1>
       </div>
     )
   }

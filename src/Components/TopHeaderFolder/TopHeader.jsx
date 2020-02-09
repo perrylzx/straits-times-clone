@@ -5,7 +5,7 @@ import StraitsTime from '../TopHeaderFolder/StraitsTime'
 class TopHeader extends React.Component {
   render() {
     return (
-      <div>
+      <div className='straits-time-header'>
         <StraitsTime />
       </div>
     )
